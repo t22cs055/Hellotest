@@ -62,7 +62,7 @@ class Judge:
                 print('引き分け')
         
         
-        print('¥n【じゃんけん終了】')
+        print('【じゃんけん終了】')
         finalWinner = Judge.judge_finalwinner(self,player1,player2)
         print(player1.get_wincount(),'対',player2.get_wincount(),'で')
         if finalWinner != None:
