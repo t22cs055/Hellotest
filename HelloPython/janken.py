@@ -7,7 +7,7 @@ def janken():
     # AとBの手をランダムに選択
     a_hand = random.randint(0, 2)
     b_hand = random.randint(0, 2)
-    
+    ###
     # 結果を出力
     print(f"Aの手: {hands[a_hand]} v.s. Bの手: {hands[b_hand]}", end=" → ")
     
